@@ -19,16 +19,16 @@ public class Driver {
 
 	public static void main(String[] args) {
 		System.out.println("hello world!");
-		
-		ST hello = new ST("Hello, <name>");
-		hello.add("name", "world!");
-		System.out.println(hello.render());
-		
-		DatabaseService service = new DatabaseService();
-		List<Song> songs = service.getAllSongs();
-		for (Song s: songs){
-			System.out.println("Title: " + s.getTitle() + " " + s.getPath());
-		}
+		System.out.println("Hey, this is Scott.");
+//		ST hello = new ST("Hello, <name>");
+//		hello.add("name", "world!");
+//		System.out.println(hello.render());
+//		
+//		DatabaseService service = new DatabaseService();
+//		List<Song> songs = service.getAllSongs();
+//		for (Song s: songs){
+//			System.out.println("Title: " + s.getTitle() + " " + s.getPath());
+//		}
 		
 //		try {
 //			Scanner keyboard = new Scanner(new File("file.txt"));
