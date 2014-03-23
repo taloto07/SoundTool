@@ -60,6 +60,8 @@ public class DispatchTest extends HttpServlet {
 		page.add("body", body.render());
 		
 		out.print(page.render());
+		
+		System.out.println("Change.");
 	
 	}
 
