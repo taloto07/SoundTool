@@ -1,0 +1,1 @@
+body(body) ::= "$body:{n| title: $n.title$ $n.path$<br/>}$";
